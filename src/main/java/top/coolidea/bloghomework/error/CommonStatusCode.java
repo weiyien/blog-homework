@@ -9,6 +9,7 @@ package top.coolidea.bloghomework.error;
 public enum CommonStatusCode {
     SUCCESS(StatusCode.SUCCESS, "操作成功"),
     REQUEST_ERROR(StatusCode.REQUEST_ERROR, "发出的请求有错误，服务器没有进行新建或修改数据的操作"),
+    SERVER_ERROR(StatusCode.SERVER_ERROR, "服务器错误"),
     NO_DATA(StatusCode.NO_DATA, "发出的请求针对的是不存在的记录，服务器没有进行操作")
 
     ;

@@ -19,5 +19,8 @@ public class StatusCode {
      * 发出的请求有错误，服务器没有进行新建或修改数据的操作。
      */
     public static final Integer REQUEST_ERROR = 100400;
-
+    /**
+     * 服务器错误
+     */
+    public static final Integer SERVER_ERROR = 100500;
 }
